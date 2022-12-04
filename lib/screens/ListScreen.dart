@@ -8,6 +8,7 @@ import 'DetailScreen.dart';
 class ListScreen extends StatefulWidget {
   const ListScreen({Key? key, required this.title}) : super(key: key);
   final String title;
+
   @override
   _ListScreenState createState() => _ListScreenState();
 }
